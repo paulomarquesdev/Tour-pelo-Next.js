@@ -12,6 +12,8 @@ Projeto construído durante o curso Next.js: tour pelo Next.js, ministrado pela 
 ## Tecnologias
 
 - Next.js
+- React.js
+- Skynex UI
 
 ## 💻 Projeto
 
