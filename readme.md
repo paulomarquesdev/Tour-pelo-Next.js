@@ -7,7 +7,7 @@
 Projeto construído durante o curso Next.js: tour pelo Next.js, ministrado pela Alura.
 
 
-[Clique aqui para acessar](https://aluratube-ten-drab.vercel.app/)
+<!-- [Clique aqui para acessar](https://aluratube-ten-drab.vercel.app/) -->
 
 ## Tecnologias
 
