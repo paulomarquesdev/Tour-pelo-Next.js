@@ -4,8 +4,8 @@ import dados from '../dados.json';
 
 export default function HomeScreen() {
   const infos = {
-    nome: 'Mario Souto',
-    githubUser: 'omariosouto',
+    nome: 'Paulo Marques',
+    githubUser: 'paulomarquesdev',
   }
   const posts = dados.posts;
 
@@ -25,13 +25,13 @@ export default function HomeScreen() {
           height: '150px',
           borderRadius: '50%',
           margin: '0 auto',
-          border: '2px solid #F9703E',
+          border: '2px solid #7D37DE',
         }}
       />
       <Text
         variant="heading1"
         tag="h1"
-        styleSheet={{ color: '#F9703E', justifyContent: 'center' }}
+        styleSheet={{ color: '#7D37DE', justifyContent: 'center' }}
       >
         {infos.nome}
       </Text>
@@ -55,13 +55,13 @@ function Post({ title, content, id }) {
     <Box 
       styleSheet={{
         flexDirection: 'column',
-        border: '1px solid #F9703E',
+        border: '1px solid #7D37DE',
         padding: '16px',
-        boxShadow: '1px 1px 5px 0 rgba(255,69,0,0.2)',
+        boxShadow: '1px 1px 5px 0 rgba(124,55,216,0.2)',
         transition: '.3s',
         borderRadius: '4px',
         hover: {
-          boxShadow: '1px 1px 5px 5px rgba(255,69,0,0.2)',
+          boxShadow: '1px 1px 5px 5px rgba(124,55,216,0.2)',
         }
       }}
     >
@@ -69,7 +69,7 @@ function Post({ title, content, id }) {
         <Text
           tag="a"
           variant="heading4"
-          styleSheet={{ display:' block', color: '#F9703E', marginBottom: '8px' }}
+          styleSheet={{ display:' block', color: '#7D37DE', marginBottom: '8px' }}
         >
           {title}
         </Text>
